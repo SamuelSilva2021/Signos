@@ -1,0 +1,8 @@
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#resultado{
+    margin-top: 50px;
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<signos>
+    <signo>
+        <dataInicio>21/03</dataInicio>
+        <dataFim>20/04</dataFim>
+        <signoNome>Áries</signoNome>
+        <descricao>Áries é o primeiro signo do zodíaco e o primeiro na trilogia do fogo - simboliza a faísca. É regido por Marte, o deus da guerra e das conquistas e traz em si as características de seu planeta regente. Áries é impaciente, intolerante e extremamente impulsivo, primeiro atira, depois pergunta o que aconteceu.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>01/04</dataInicio>
+        <dataFim>20/05</dataFim>
+        <signoNome>Touro</signoNome>
+        <descricao>Touro é o primeiro signo do elemento terra, regido por Vênus, o planeta do amor e dos relacionamentos. Touro busca segurança no amor e na vida prática, por isso é considerado o mais estável de todos os signos. Touro é amoroso, afetuoso, dependente, acomodado, apaixonado e intenso. Taurinos e taurinas buscam por um trabalho seguro e morrem de medo de aventuras.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>21/05</dataInicio>
+        <dataFim>20/06</dataFim>
+        <signoNome>Gêmeos</signoNome>
+        <descricao>O primeiro signo de ar é Gêmeos, o signo mais curioso, apelidado de borboleta do zodíaco, pela sua curiosidade, leveza e capacidade de voar de um lado a outro. Regido por Mercúrio, o deus da comunicação e do movimento, traz em si a capacidade da mediação, da notícia, das trocas intelectuais e do conhecimento. Geminianos e geminianas possuem como característica a rapidez das ideias e a facilidade de comunicar-se, seja com quem for.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>21/06</dataInicio>
+        <dataFim>22/07</dataFim>
+        <signoNome>Câncer</signoNome>
+        <descricao>Câncer é o primeiro signo de água, regido pela Lua e, como seu luminar regente, é totalmente instável e pode viver as quatro fases lunares em um só dia. Extremamente sensíveis e absolutamente emocionais, as pessoas desse signo sabem construir vínculos afetivos profundos e duradouros, pois precisam sentir-se emocionalmente seguras em seus relacionamentos.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>23/07</dataInicio>
+        <dataFim>22/08</dataFim>
+        <signoNome>Leão</signoNome>
+        <descricao>Leão é o segundo signo pertencente à trilogia do fogo e representa a chama. As pessoas de Leão são apaixonadas, possuem um ar de nobreza natural e gostam de ser admiradas e apreciadas. São regidos pelo Sol, o centro do Universo, e trazem em si as características de seu luminar regente. Leoninos e leoninas não vivem sem uma boa paixão, precisam sentir o calor no coração. Podem ser arrogantes, altivos, egocêntricos e adoram um aplauso.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>23/08</dataInicio>
+        <dataFim>22/09</dataFim>
+        <signoNome>Virgem</signoNome>
+        <descricao>Virgem é o segundo signo de terra, regido por Mercúrio, o deus da comunicação e do conhecimento. Virginianos e virginianas gostam de dinheiro, como todo signo de terra, mas não são escravos dele. Apreciam a segurança que o dinheiro traz e gostam, como bons representantes desse elemento, de um chão firme para pisar.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>23/09</dataInicio>
+        <dataFim>22/10</dataFim>
+        <signoNome>Libra</signoNome>
+        <descricao>Libra é o segundo signo do elemento ar, regido por Vênus, o planeta do amor e dos relacionamentos. No entanto, diferentemente de Touro, que também é regido por Vênus, não é um signo físico, é um signo em que o amor é compreendido de uma maneira conceitual, no plano das ideias. Libra busca o equilíbrio e a harmonia em tudo o que toca, mas isso não quer dizer que as pessoas desse signo são equilibradas; a balança, símbolo deste signo, sempre pende para um lado e lá vai o libriano ou a libriana tentar equilibrá-la.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>23/10</dataInicio>
+        <dataFim>21/11</dataFim>
+        <signoNome>Escorpião</signoNome>
+        <descricao>Escorpião é o segundo signo de água, também extremamente sensível e profundo, ligado ao mundo emocional. Intensos, são regidos por Plutão, o deus dos infernos pessoais e coletivos. Não existe uma pessoa desse signo que seja superficial, todos trazem em si o contato com as profundezas de seu ser. Sensuais, mas pouco compreendidos, buscam o sexo perfeito, a união de almas e não somente orgasmos. </descricao>
+    </signo>
+    <signo>
+        <dataInicio>22/11</dataInicio>
+        <dataFim>21/12</dataFim>
+        <signoNome>Sargitário</signoNome>
+        <descricao>Sagitário é o terceiro signo do elemento fogo e representa as cinzas. Regidas por Júpiter, o maior planeta do zodíaco, sagitarianos e sagitarianas costumam ser exagerados, excêntricos, arrogantes, indiscretos, inconvenientes com suas verdades assertivas, aventureiros e amantes do conhecimento. Altivos e agressivos, são representados pelo Centauro, o ser mitológico que é metade homem e metade cavalo. A metade humana está voltada para os temas superiores, que envolvem o Universo e a origem da vida e a parte animal, com a vida mundana e prática.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>22/12</dataInicio>
+        <dataFim>20/01</dataFim>
+        <signoNome>Capricórnio</signoNome>
+        <descricao>Capricórnio é o terceiro signo do elemento terra e como os outros três, busca por segurança no mundo. Regidos por Saturno, um planeta de carma e provações, costumam ser sérios e responsáveis, tanto na vida prática quanto na emocional. As pessoas desse signo são estáveis,  buscam por um lugar ao Sol e possuem enorme determinação e capacidade de construir a vida tijolo por tijolo.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>21/01</dataInicio>
+        <dataFim>18/02</dataFim>
+        <signoNome>Aquário</signoNome>
+        <descricao>Aquário é o terceiro signo de ar, regido por Urano, o planeta da liberdade e da rebeldia. O aquariano ou aquariana típico deve estar à frente de seu tempo nas ideias, na maneira que se veste e que vive sua vida. Com uma inteligência acima da média, as pessoas desse signo costumam ser extremamente estudiosas e curiosas, o que as leva a entender um pouco sobre todos os assuntos. Aquarianos são sociáveis, interessados, inteligentes, agitados, ansiosos, impulsivos e emocionalmente frios. Odeiam manifestações emocionais intensas.</descricao>
+    </signo>
+    <signo>
+        <dataInicio>19/02</dataInicio>
+        <dataFim>20/03</dataFim>
+        <signoNome>Peixes</signoNome>
+        <descricao>Peixes é o terceiro signo de água, regido por Netuno, o deus dos oceanos. Junto com Câncer é, sem sombra de dúvidas, o signo mais sensível do zodíaco. A maioria das pessoas desse signo possui imensa dificuldade em se ajustar no mundo. Costuma colocar as questões humanas à frente de tudo, por isso tem imensa dificuldade em se adaptar ao sistema. Piscianos e piscianas possuem um radar próprio para detectar as energias invisíveis. São bastante espiritualistas, ligados às questões ocultas do mundo.</descricao>
+    </signo>
+</signos>
