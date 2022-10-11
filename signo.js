@@ -30,24 +30,41 @@ function buscaSigno(dataEscolhida) {
     xmlHttp.open("GET", "signos.xml", true);
     xmlHttp.send();
 }
+function retornaObjData(obj){
+    var dataCompara = obj.split("/");
+        var dia = parseInt(dataCompara[0]);
+        var mes = parseInt(dataCompara[1]);
+        var dataConvert = new Date(2022, mes, dia)
+        return dataConvert
+}
+
 function signoDetalhes(xml, dataEscolhida) {
     var i;
     var msgErro = '<h4>Não foi possível encontrar signo com essa data</h4>'
     var xmlDoc = xml.responseXML
-    let signo;
-    let descricao;
     var x = xmlDoc.getElementsByTagName("signo");
+    var lista = [];
+    var dtEscolhida = retornaObjData(dataEscolhida)
     for (i = 0; i < x.length; i++) {
-        if (x[i].getElementsByTagName("dataInicio")[0].childNodes[0].nodeValue == dataEscolhida) {
-            signo = x[i].getElementsByTagName("signoNome")[0].childNodes[0].nodeValue;
-            descricao = x[i].getElementsByTagName("descricao")[0].childNodes[0].nodeValue;
-            var textHtml = '';
-            textHtml += `<h4 id="signo">${signo}</h4>`
-            textHtml += `<p id="descricao">${descricao}</p>`
-            return document.getElementById("resultado").innerHTML = textHtml;
+        var obj = {
+            dtIni: retornaObjData(x[i].getElementsByTagName("dataInicio")[0].childNodes[0].nodeValue),
+            dtFim: retornaObjData(x[i].getElementsByTagName("dataFim")[0].childNodes[0].nodeValue),
+            descricao: x[i].getElementsByTagName("descricao")[0].childNodes[0].nodeValue,
+            signo: x[i].getElementsByTagName("signoNome")[0].childNodes[0].nodeValue
         }
+        lista.push(obj)
     }
+    for(var x = 0; x < lista.length; x ++){
+        if(dtEscolhida >= lista[x].dtIni && dtEscolhida <= lista[x].dtFim){
+            var text = '';
+            text += `<h4>${lista[x].signo}</h4>`
+            text += `<p id="descricao">${lista[x].descricao}</p>`
 
+            return document.getElementById("resultado").innerHTML = text;
+        }
+        
+    }
     return document.getElementById("resultado").innerHTML = msgErro
+    
 }
 buscaSigno(dataEscolhida);
