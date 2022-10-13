@@ -30,7 +30,7 @@ function buscaSigno(dataEscolhida) {
     xmlHttp.open("GET", "signos.xml", true);
     xmlHttp.send();
 }
-function retornaObjData(obj){
+function retornaObjData(obj){    
     var dataCompara = obj.split("/");
         var dia = parseInt(dataCompara[0]);
         var mes = parseInt(dataCompara[1]);
@@ -39,6 +39,7 @@ function retornaObjData(obj){
 }
 
 function signoDetalhes(xml, dataEscolhida) {
+    
     var i;
     var msgErro = '<h4>Não foi possível encontrar signo com essa data</h4>'
     var xmlDoc = xml.responseXML
@@ -68,3 +69,7 @@ function signoDetalhes(xml, dataEscolhida) {
     
 }
 buscaSigno(dataEscolhida);
+var ob = {
+    nome: 'samuel',
+    sobrenome: 'silva'
+}
